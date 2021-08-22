@@ -1,3 +1,5 @@
+# Astpod#1411 & Cardea#2787
+
 # Kurulum
 
 1) Dosyaları indirin.
@@ -9,7 +11,7 @@
 7) Klasörün içinde bulunan `baslat.bat` uzantılı _batch_ dosyasını açın.
 8) Tokenini girmiş olduğunuz bot sunucuda ekliyse çalışmaya başlayacaktır.
 
-Sorun Olursa: Astpod#1411
+Sorun Olursa: Astpod#1411 & Cardea#2787
 
 # Önemli
 
