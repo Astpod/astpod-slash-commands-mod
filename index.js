@@ -12,7 +12,7 @@ mongoose.connect(cfg.mongoURL, {
   })
 
 const client = new Client();
-client.login();
+client.login(cfg.token);
 
 client.toDate = date => {
     return new Date(date).toLocaleString("tr-TR", { hour12: false, timeZone: "Europe/Istanbul"}).replace(",", "");
