@@ -45,7 +45,7 @@ module.exports = class Git extends Command {
 
         mesaj.awaitReactions({filter, max: 1, time: 60000, errors: ["time"] }).then(collected => {
         const reaction = collected.first();
-        if (reaction.emoji.name === "astpod_ok") {
+        if (reaction.emoji.name === cfg.okname) {
         let kabul = new MessageEmbed()
         .setTitle(`Kabul`)
         .setDescription(`${interaction.member} adlı üye başarıyla ${user} adlı üyenin odasına taşındı.`)
